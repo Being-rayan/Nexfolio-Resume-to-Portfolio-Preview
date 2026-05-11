@@ -53,13 +53,15 @@ Nexfolio uses AI to extract and organize resume information. Since AI-generated 
 
 ## Repository Status
 
-The complete source code and main project files are private for now.
+The full project source code and implementation files will be added later.
 
-This repository is maintained only as a public showcase containing selected project information, screenshots, and proof of work. Screenshots of generated portfolio websites, including test outputs created from my friend's CVs, are included to demonstrate that the project is working.
+For now, this repository is maintained as a project showcase containing screenshots, generated portfolio previews, and proof of work demonstrating the functionality of the system.
 
-## Privacy Note
+The project has been tested with multiple resume inputs, including sample resumes from friends, and successfully generates deployable portfolio websites.
 
-Uploaded resumes, generated files, backend logic, API keys, and private implementation files are not shared publicly for privacy and security reasons.
+## Additional Note
+
+Some implementation files, deployment configurations, and backend components are currently not included in this public repository and may be organized and published in future updates.
 
 ## Author
 
