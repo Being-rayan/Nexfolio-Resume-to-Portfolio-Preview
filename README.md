@@ -1,96 +1,200 @@
-# Nexfolio : AI Resume-to-Portfolio Generator
+# Nexfolio
 
-Nexfolio is an AI-assisted web application that converts a user's resume PDF into a ready-to-use personal portfolio website. It extracts key resume details, generates a structured portfolio layout, provides a live preview, and allows users to export the generated website files for deployment.
+Nexfolio is an AI-powered resume-to-portfolio generator that converts a resume PDF into a responsive personal portfolio website with automatic content generation, live preview, and downloadable export support.
 
-## Live Demo
+**Live Demo:** https://nexfolio-resume-live.vercel.app/  
+**Source Code:** Private  
+**Preview Repository:** Documentation and project showcase only
 
-Generated portfolio demo:  
-https://nexfolio-generated.vercel.app/
+---
 
-## Project Overview
+# Project Overview
 
-Nexfolio was built to simplify the process of creating a personal portfolio website from a resume. Instead of manually writing HTML, CSS, and JavaScript, users can upload their resume and the system automatically extracts relevant information such as name, role, skills, projects, experience, education, and contact details.
+Nexfolio was built to simplify portfolio creation for students, developers, and professionals who want a fast and automated way to build a modern portfolio website from their resume.
 
-The extracted data is then used to generate a clean and responsive portfolio website that can be previewed, exported, and deployed on platforms such as GitHub Pages or Vercel.
+Instead of manually designing sections and writing portfolio content, users can upload a resume PDF and let the system automatically extract, organize, and generate a structured portfolio website.
 
-The project has been tested with multiple resume inputs, including sample CVs from friends, and successfully generated deployable portfolio websites.
+The platform focuses on the complete pipeline:
 
-## Key Features
+- Resume upload
+- Resume parsing
+- AI-based understanding
+- Structured data generation
+- Portfolio rendering
+- Preview workflow
+- ZIP export
 
-- Resume PDF upload
-- AI-based resume information extraction
-- Automatic portfolio website generation
-- Live portfolio preview
-- Exportable HTML, CSS, and JavaScript files
-- ZIP export support
-- Responsive portfolio design
-- Deployable on GitHub Pages or Vercel
-- Tested with multiple resume formats
+---
 
-## Tech Stack
+# How It Works
 
-### Frontend
+1. Upload a resume PDF
+2. Backend extracts resume text
+3. AI analyzes the resume content
+4. Structured portfolio data is generated
+5. Portfolio sections are rendered automatically
+6. User previews the generated website
+7. Final portfolio can be exported as downloadable files
+
+---
+
+# Portfolio Generation Pipeline
+
+```text
+Resume PDF
+   ↓
+PDF Text Extraction
+   ↓
+AI-Based Resume Understanding
+   ↓
+Structured Portfolio Data
+   ↓
+Generated Portfolio Website
+   ↓
+Preview + ZIP Export
+```
+
+---
+
+# Key Features
+
+- AI-assisted resume understanding
+- Automatic portfolio content generation
+- Resume-based project extraction
+- Skills and experience parsing
+- Portfolio preview system
+- Downloadable ZIP export
+- Multiple portfolio template support
+- Full-stack architecture
+- Backend resume processing pipeline
+- Dynamic frontend rendering
+- Structured section generation
+- Responsive portfolio layouts
+
+---
+
+# Core Portfolio Sections
+
+Generated portfolios can include:
+
+- Hero section
+- About section
+- Skills
+- Projects
+- Experience
+- Education
+- Certifications
+- Contact information
+- Social links
+
+---
+
+# Tech Stack
+
+## Frontend
 
 - HTML
 - CSS
 - JavaScript
 
-### Backend
+## Backend
 
 - Python
 - FastAPI
-- MongoDB
-- PyMuPDF
 - Google Gemini API
+- PyMuPDF
+- pdfplumber
+- MongoDB
 
-### Tools and Platforms
+## Deployment
 
-- VS Code
-- Git
-- GitHub
 - Vercel
+- REST API architecture
+- Environment-based API configuration
 
-## How It Works
+---
 
-1. The user uploads a resume PDF.
-2. The backend extracts text from the resume using PyMuPDF.
-3. The extracted content is processed using the Google Gemini API.
-4. Important resume details are structured into usable portfolio sections.
-5. The system generates portfolio website files.
-6. The user can preview the portfolio and export the generated files.
-7. The exported portfolio can be deployed using GitHub Pages or Vercel.
+# Backend Workflow
 
-## AI Disclaimer
+```text
+User uploads resume
+        |
+PDF text extraction begins
+        |
+Resume content cleaned and processed
+        |
+Gemini AI analyzes structured information
+        |
+Fallback parsing handles missing sections
+        |
+Portfolio JSON structure generated
+        |
+Frontend renders portfolio dynamically
+        |
+Preview and export become available
+```
 
-Nexfolio uses AI to extract, organize, and structure resume information. Since AI-generated output may not always be fully accurate, users should review and edit the generated portfolio before using it for professional purposes or public deployment.
+---
 
-## Repository Status
+# AI Processing Features
 
-This repository currently serves as a project showcase. It includes generated portfolio previews, screenshots, and proof-of-work material demonstrating the functionality of the system.
+The AI pipeline is designed to identify and structure:
 
-The complete source code, backend implementation, environment configuration, and deployment setup are currently being organized and may be published in future updates.
+- Personal information
+- Skills
+- Technical stacks
+- Experience details
+- Education records
+- Project descriptions
+- Contact information
+- Social profiles
 
-## Current Limitations
+The system also includes rule-based fallback parsing to improve reliability when resumes contain inconsistent formatting.
 
-- AI-generated content may require manual review.
-- Some backend and deployment configuration files are not included in this public repository yet.
-- Output quality may vary depending on the structure and clarity of the uploaded resume.
-- Additional templates and customization options can be added in future versions.
+---
 
-## Future Improvements
+# Validation And Testing
 
-- Add multiple portfolio templates
-- Improve resume parsing accuracy
-- Add user authentication
-- Add dashboard for managing generated portfolios
-- Support direct one-click deployment
-- Add manual editing options before export
-- Improve UI customization for colors, fonts, and layouts
+Verified checks include:
 
-## Author
+- Resume upload validation
+- PDF extraction testing
+- AI response handling
+- Structured data generation
+- Portfolio rendering validation
+- Dynamic section generation
+- ZIP export testing
+- Frontend preview testing
+- API endpoint validation
+- Multi-resume compatibility testing
 
-**Rayan Qamar**
+---
 
-## Purpose
+# Current Limitations
 
-This project was created for portfolio building, learning, and practical full-stack AI-based web application development. It demonstrates the use of AI, backend APIs, resume parsing, file generation, and deployment-ready portfolio creation.
+- Resume parsing quality depends on resume formatting
+- AI-generated outputs may occasionally require manual refinement
+- Highly complex resume layouts may affect extraction accuracy
+- Public repository does not include production source code
+
+This repository exists only for project showcase, workflow explanation, and recruiter preview.
+
+---
+
+# What This Project Demonstrates
+
+- Full-stack application development
+- AI-assisted document understanding
+- Resume parsing pipelines
+- Dynamic website generation
+- Backend API architecture
+- Structured data transformation
+- Frontend rendering systems
+- File upload and export workflows
+- AI + web integration workflows
+
+---
+
+# Author
+
+Rayan Qamar
