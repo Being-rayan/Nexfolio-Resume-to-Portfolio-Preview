@@ -1,5 +1,43 @@
-# Nexfolio Nexfolio is a full-stack AI-powered resume-to-portfolio generator that converts a resume PDF into a responsive personal portfolio website with automatic content generation, live preview, and downloadable export support. **Live Demo:** https://nexfolio-resume-live.vercel.app/ **Source Code:** Private **Preview Repository:** Documentation and project showcase only --- # Project Overview Nexfolio simplifies portfolio creation for students, developers, and professionals by automatically transforming resume data into a modern portfolio website. Instead of manually designing pages and writing portfolio sections, users can upload a resume PDF and let the platform extract, organize, and generate a structured personal portfolio automatically. The platform focuses on the complete workflow from resume upload to AI-based understanding, portfolio generation, preview, and export. --- # Key Features - AI-assisted resume understanding - Automatic portfolio content generation - Resume-based project extraction - Skills and experience parsing - Dynamic portfolio rendering - Portfolio preview system - Downloadable ZIP export - Multiple portfolio template support - Responsive portfolio layouts - Full-stack resume processing pipeline - Structured section generation - AI + rule-based parsing workflow --- # Portfolio Generation Workflow
-text
+# Nexfolio
+
+Nexfolio is a full-stack AI-powered resume-to-portfolio generator that converts a resume PDF into a responsive personal portfolio website with automatic content generation, live preview, and downloadable export support.
+
+**Live Demo:** https://nexfolio-resume-live.vercel.app/  
+**Source Code:** Private  
+**Preview Repository:** Documentation and project showcase only
+
+---
+
+# Project Overview
+
+Nexfolio simplifies portfolio creation for students, developers, and professionals by automatically transforming resume data into a modern portfolio website.
+
+Instead of manually designing pages and writing portfolio sections, users can upload a resume PDF and let the platform extract, organize, and generate a structured personal portfolio automatically.
+
+The platform focuses on the complete workflow from resume upload to AI-based understanding, portfolio generation, preview, and export.
+
+---
+
+# Key Features
+
+- AI-assisted resume understanding
+- Automatic portfolio content generation
+- Resume-based project extraction
+- Skills and experience parsing
+- Dynamic portfolio rendering
+- Portfolio preview system
+- Downloadable ZIP export
+- Multiple portfolio template support
+- Responsive portfolio layouts
+- Full-stack resume processing pipeline
+- Structured section generation
+- AI + rule-based parsing workflow
+
+---
+
+# Portfolio Generation Workflow
+
+```text
 User uploads resume PDF
         |
 PDF text extraction begins
@@ -13,4 +51,132 @@ Portfolio website is rendered
 Preview becomes available
         |
 Final portfolio exported as ZIP
---- # Demo Workflow 1. Open the live deployment 2. Upload a resume PDF 3. Nexfolio extracts and analyzes the resume 4. Portfolio sections are generated automatically 5. Preview the generated portfolio website 6. Export the final portfolio files --- # Core Portfolio Sections Generated portfolios can include: - Hero section - About section - Skills - Projects - Experience - Education - Certifications - Contact information - Social links --- # Tech Stack ## Frontend - HTML - CSS - JavaScript ## Backend - Python - FastAPI - Google Gemini API - PyMuPDF - pdfplumber - MongoDB ## Deployment - Vercel - REST API architecture - Environment-based API configuration --- # Backend Processing Pipeline | Stage | Responsibility | |---|---| | Resume Upload | PDF file intake | | Text Extraction | Resume content extraction | | AI Processing | Resume understanding using Gemini | | Fallback Parsing | Rule-based recovery parsing | | Structured Data | Portfolio JSON generation | | Frontend Rendering | Dynamic portfolio creation | | Export System | ZIP export preparation | The system combines AI-based understanding with rule-based parsing to improve reliability across different resume formats. --- # Validation And Testing Verified checks include: - Resume upload validation - PDF extraction testing - AI response handling - Structured data generation - Portfolio rendering validation - Dynamic section generation - ZIP export testing - Frontend preview testing - Multi-resume compatibility testing --- # Current Limitations - Resume parsing quality depends on resume formatting - AI-generated outputs may occasionally require manual refinement - Complex resume layouts may affect extraction accuracy - Full production source code remains private This repository exists for recruiter showcase, workflow explanation, and technical project presentation. --- # What This Project Demonstrates - Full-stack application development - AI-assisted document understanding - Resume parsing workflows - Dynamic website generation - Backend API architecture - Structured data transformation - File upload and export systems - AI-integrated frontend workflows --- # Screenshots Screenshots are included in this repository to showcase the UI, workflow, generated portfolios, and overall project experience. --- # Current Status Nexfolio is deployed and functioning as a complete AI-powered resume-to-portfolio generation platform. The public repository is intended for project showcase, architecture overview, and technical demonstration purposes. --- # Author Rayan Qamar
+```
+
+---
+
+# Demo Workflow
+
+1. Open the live deployment
+2. Upload a resume PDF
+3. Nexfolio extracts and analyzes the resume
+4. Portfolio sections are generated automatically
+5. Preview the generated portfolio website
+6. Export the final portfolio files
+
+---
+
+# Core Portfolio Sections
+
+Generated portfolios can include:
+
+- Hero section
+- About section
+- Skills
+- Projects
+- Experience
+- Education
+- Certifications
+- Contact information
+- Social links
+
+---
+
+# Tech Stack
+
+## Frontend
+
+- HTML
+- CSS
+- JavaScript
+
+## Backend
+
+- Python
+- FastAPI
+- Google Gemini API
+- PyMuPDF
+- pdfplumber
+- MongoDB
+
+## Deployment
+
+- Vercel
+- REST API architecture
+- Environment-based API configuration
+
+---
+
+# Backend Processing Pipeline
+
+| Stage | Responsibility |
+|---|---|
+| Resume Upload | PDF file intake |
+| Text Extraction | Resume content extraction |
+| AI Processing | Resume understanding using Gemini |
+| Fallback Parsing | Rule-based recovery parsing |
+| Structured Data | Portfolio JSON generation |
+| Frontend Rendering | Dynamic portfolio creation |
+| Export System | ZIP export preparation |
+
+The system combines AI-based understanding with rule-based parsing to improve reliability across different resume formats.
+
+---
+
+# Validation And Testing
+
+Verified checks include:
+
+- Resume upload validation
+- PDF extraction testing
+- AI response handling
+- Structured data generation
+- Portfolio rendering validation
+- Dynamic section generation
+- ZIP export testing
+- Frontend preview testing
+- Multi-resume compatibility testing
+
+---
+
+# Current Limitations
+
+- Resume parsing quality depends on resume formatting
+- AI-generated outputs may occasionally require manual refinement
+- Complex resume layouts may affect extraction accuracy
+- Full production source code remains private
+
+This repository exists for recruiter showcase, workflow explanation, and technical project presentation.
+
+---
+
+# What This Project Demonstrates
+
+- Full-stack application development
+- AI-assisted document understanding
+- Resume parsing workflows
+- Dynamic website generation
+- Backend API architecture
+- Structured data transformation
+- File upload and export systems
+- AI-integrated frontend workflows
+
+---
+
+# Screenshots
+
+Screenshots are included in this repository to showcase the UI, workflow, generated portfolios, and overall project experience.
+
+---
+
+# Current Status
+
+Nexfolio is deployed and functioning as a complete AI-powered resume-to-portfolio generation platform.
+
+The public repository is intended for project showcase, architecture overview, and technical demonstration purposes.
+
+---
+
+# Author
+
+Rayan Qamar
